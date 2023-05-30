@@ -10,6 +10,6 @@ import java.io.IOException;
 public class Phoenix extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        req.getRequestDispatcher("/WEB-INF/pages/Phoenix.html").forward(req, resp);
+        req.getRequestDispatcher("/Phoenix.html").forward(req, resp);
     }
 }
